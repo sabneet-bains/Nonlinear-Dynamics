@@ -2,7 +2,7 @@
 
 A repository for Modeling and Simulation of Complex Systems.
 
-<img src="https://github.com/sabneet95/Nonlinear-Dynamics/blob/main/2D_Cellular_Automaton.png">
+<img src="https://github.com/sabneet95/Nonlinear-Dynamics/blob/main/2D_Cellular_Automaton.gif">
 
 ## Requirements
 
