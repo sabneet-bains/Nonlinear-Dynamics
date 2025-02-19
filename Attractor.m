@@ -10,7 +10,6 @@ function attractor_main()
 % for x(t) and y(t), as well as a phase plot of x versus z after removing transient dynamics.
 %
 % Author: Sabneet Bains
-% Date: [Current Date]
 % License: MIT License
 
     try
