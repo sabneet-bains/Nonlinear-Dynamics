@@ -1,4 +1,4 @@
-% lorenz_system.m - Simulation of the Lorenz System using ode45
+% Lorenz.m - Simulation of the Lorenz System using ode45
 %
 % Equations of the Lorenz system:
 %   dx/dt = sigma*(y - x)
