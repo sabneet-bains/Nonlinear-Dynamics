@@ -16,7 +16,6 @@ function rossler_main()
 %   - Phase plot of x versus y
 %
 % Author: Sabneet Bains
-% Date: [Current Date]
 % License: MIT License
 
     try
