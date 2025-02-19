@@ -1,4 +1,4 @@
-% rossler_system.m - Simulation of the Rössler System using ode45
+% Rossler.m - Simulation of the Rössler System using ode45
 %
 % Equations of the Rössler system:
 %   dx/dt = -y - z
