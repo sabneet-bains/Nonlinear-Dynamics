@@ -13,16 +13,16 @@
 
 clear; close all; clc;
 
-%%% Parameters
+%% Parameters
 alpha = 0.30;  % Constant parameter
 
-%%% Define the Attractor System
+%% Define the Attractor System
 % The system is defined as a function handle where p(1)=x, p(2)=y, p(3)=z.
 attractor = @(t, p) [-alpha * p(1) + sin(p(2));
                      -alpha * p(2) + sin(p(3));
                      -alpha * p(3) + sin(p(1))];
 
-%%% Generate Random Initial Conditions
+%% Generate Random Initial Conditions
 % Generate initial conditions in the interval [0, 10]
 rng('shuffle');
 x0 = 10 * rand;
@@ -30,7 +30,7 @@ y0 = 10 * rand;
 z0 = 10 * rand;
 initialConditions = [x0; y0; z0];
 
-%%% Numerical Integration with ode45
+%% Numerical Integration with ode45
 tspan = [0 1000];
 [t, p] = ode45(attractor, tspan, initialConditions);
 
@@ -40,7 +40,7 @@ transientIndex = min(2000, length(t));
 t_trim = t(transientIndex:end);
 p_trim = p(transientIndex:end, :);
 
-%%% Plotting Results
+%% Plotting Results
 figure;
 
 % Plot x(t)
