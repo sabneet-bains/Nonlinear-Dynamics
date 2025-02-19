@@ -1,4 +1,4 @@
-% exponential_map_bifurcation.m - Bifurcation diagram simulation
+% Exponential_Map.m - Bifurcation diagram simulation
 %
 % This script simulates the map:
 %   x(n+1) = x(n) * exp(lambda*(1 - x(n)))
