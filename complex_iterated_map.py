@@ -8,7 +8,7 @@ for a specified number of iterations, starting from given initial conditions.
 The first 100 iterations are discarded to remove transient dynamics, and the final
 results are plotted as a scatter plot in the complex plane.
 
-Author: [Your Name]
+Author: Sabneet Bains
 License: MIT License
 """
 
