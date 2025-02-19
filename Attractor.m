@@ -1,4 +1,4 @@
-% attractor.m - Simulation of a one-parameter attractor system using ode45
+% Attractor.m - Simulation of a one-parameter attractor system using ode45
 %
 % Equations of the system:
 %   dx/dt = -α * x + sin(y)
