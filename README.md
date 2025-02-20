@@ -24,4 +24,4 @@ This repository has been tested on the following setup:
 Contributions are welcome through pull requests. For significant changes, please open an issue to discuss the proposed change before submitting a pull request. Please make sure to update the tests accordingly.
 
 ## License
-This repository is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
+This repository is licensed under the [MIT](https://github.com/sabneet95/Nonlinear-Dynamics/blob/main/LICENSE) License.
