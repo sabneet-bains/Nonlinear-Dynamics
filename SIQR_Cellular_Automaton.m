@@ -12,7 +12,7 @@ classdef SIQR_Cellular_Automaton < matlab.apps.AppBase
     %   - Real-time animation (refreshing the plot during the main loop).
     %   - Preallocation of arrays to avoid dynamic memory allocation in loops.
     %
-    % Author: [Your Name]
+    % Author: Sabneet Bains
     % License: MIT License
 
     % Properties that correspond to app components
