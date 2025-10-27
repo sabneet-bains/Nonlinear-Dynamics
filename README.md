@@ -1,147 +1,216 @@
-# 🌌 Nonlinear Dynamics Repository  
+<div align="center"><a name="readme-top"></a>
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2022a-orange?logo=mathworks&logoColor=white)](https://www.mathworks.com/)
-[![Scientific Computing](https://img.shields.io/badge/Domain-Scientific_Computation-lightgrey?logo=atom&logoColor=white)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+# 🌌 Nonlinear Dynamics — Simulation & Visualization Suite  
 
-<br>
+[![Python](https://img.shields.io/badge/Python-3.9%2B-528ec5?logo=python&logoColor=white&labelColor=0d1117&style=flat)](https://www.python.org/)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2022a%2B-f39c12?logo=mathworks&logoColor=white&labelColor=0d1117&style=flat)](https://www.mathworks.com/)
+[![Domain](https://img.shields.io/badge/Scientific_Computing-8E44AD?logo=jupyter&logoColor=white&labelColor=0d1117&style=flat)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2ECC71?labelColor=0d1117&style=flat)](https://choosealicense.com/licenses/mit/)
 
-**A curated collection of MATLAB and Python tools for simulating, visualizing, and analyzing complex systems and nonlinear dynamics.**  
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/sabneet95/Nonlinear-Dynamics)
 
-These projects include interactive cellular automata, iterated maps, and chaos simulations that support both educational and research applications.
+**Order from chaos, insight from iteration.**  
+<sup>*A cross-language toolkit that models nonlinear behavior — bridging mathematical theory, computational physics, and visualization design.*</sup>
 
 <img src="https://github.com/sabneet95/Nonlinear-Dynamics/blob/main/2D_Cellular_Automaton.gif" alt="2D Cellular Automaton Animation" width="800">
 
-> *Note: These tools are primarily educational and research-focused and may require further modification for production use.*
+</div>
+
+> [!NOTE]
+> <sup>Part of the <b>Foundational & Academic</b> collection: educational tools designed with engineering rigor.</sup>
 
 
 ## 🧭 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Directory Structure](#directory-structure)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Future Work](#future-work)
-- [Author](#author)
-- [License](#license)
-
-
-## 🧩 Overview
-
-This repository provides a suite of simulation tools to study nonlinear dynamics, chaos, and complex systems. It is divided into two major components:
-
-### **MATLAB Applications**
-Interactive 2D cellular automata simulations (such as the COVID-19 SIQR model) allow users to adjust parameters — lockdown strength (α), recovery rate (ɣ), and quarantine rate (q) — via intuitive knob controls.  
-Optimized with vectorized operations, RNG management, and array preallocation for real-time responsiveness.
-
-### **Python Modules**
-Implements classic iterated maps (logistic, tent, complex-valued, exponential) and numerical solvers (e.g., Runge-Kutta 4).  
-Each module adheres to modern Python practices with type hints, docstrings, and logging for transparency and reproducibility.
+- [Overview](#-overview)
+- [Learning Objectives](#-learning-objectives)
+- [Architecture & Design](#-architecture--design)
+- [Directory Structure](#-directory-structure)
+- [Usage](#-usage)
+- [Conceptual Insights](#-conceptual-insights)
+- [Contributing](#-contributing)
+- [Future Work](#-future-work)
+- [Author](#-author)
+- [License](#-license)
 
 
-## 🧱 Architecture
+## 📘 Overview  
 
-### **MATLAB Apps**
-- Developed using MATLAB App Designer.  
-- UI components are decoupled from simulation logic.  
-- Real-time updates achieved through vectorization and efficient RNG.  
-- Interactive knobs allow dynamic parameter tuning during simulation.
+This repository explores **nonlinear systems**, **chaos**, and **complex dynamics** through interactive simulations and analytical models.  
+It is both an educational laboratory and a scientific toolkit — combining **MATLAB apps** for real-time experimentation with **Python modules** for numerical modeling.
 
-### **Python Tools**
-- Each script implements a self-contained model or solver.  
-- Clean function boundaries, detailed docstrings, and robust error handling.  
-- Generates bifurcation diagrams, phase plots, and chaos visualizations.
+### Why It Matters
+- Demonstrates how simple rules yield emergent complexity.  
+- Encourages intuition for bifurcation, attractors, and deterministic chaos.  
+- Bridges continuous (differential) and discrete (iterative) dynamics.  
+
+<div align="right">
+
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
+
+</div>
 
 
-## 📂 Directory Structure
+## 🎯 Learning Objectives  
 
-```
+- Model **iterated maps**, **cellular automata**, and **chaotic oscillators**.  
+- Visualize **phase space**, **bifurcation**, and **temporal evolution**.  
+- Apply **Runge–Kutta methods** to nonlinear ODEs.  
+- Compare outcomes between **discrete maps** and **continuous systems**.  
+- Use computational tools to gain **qualitative insight into chaos**.  
+
+> [!TIP]
+> Every chaotic system teaches stability by contrast — track its transitions.
+
+<div align="right">
+
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
+
+</div>
+
+
+## ⚙️ Architecture & Design  
+
+**MATLAB Apps**
+- Built using **App Designer** for interactive cellular-automaton simulation.  
+- Real-time evolution achieved through vectorized updates and preallocation.  
+- Parameter knobs control infection rate (α), recovery (ɣ), and quarantine (q).  
+
+**Python Modules**
+- Implements **logistic**, **tent**, **complex**, and **exponential** maps.  
+- Includes **Runge–Kutta 4 solver** for continuous systems.  
+- Generates **bifurcation diagrams**, **phase portraits**, and **Lyapunov analyses**.  
+- Each file is modular and annotated for reproducibility.
+
+<div align="right">
+
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
+
+</div>
+
+
+## 📂 Directory Structure  
+
+````text
 Nonlinear-Dynamics/
 ├── MATLAB/
 │   ├── SIQR_Cellular_Automaton.mlapp
-│   └── (Additional MATLAB simulations)
+│   └── (Other MATLAB models)
 ├── Python/
 │   ├── logistic_map.py
 │   ├── tent_map.py
 │   ├── complex_iterated_map.py
-│   ├── rk4_method.py
-│   └── exponential_map.py
+│   ├── exponential_map.py
+│   └── rk4_method.py
 ├── 2D_Cellular_Automaton.gif
 ├── LICENSE
 └── README.md
-```
+````
+
+> [!NOTE]
+> Folder organization mirrors the dual-language design philosophy — visual + analytical.
+
+<div align="right">
+
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
+
+</div>
 
 
-## ⚙️ Requirements
+## 🚀 Usage  
 
-- **MATLAB R2022a or later**  
-  [Download MATLAB](https://www.mathworks.com/products/matlab.html)  
-- **Python 3.9.1 or later (64-bit)**  
-  [Download Python](https://www.python.org/downloads/)
+### MATLAB Apps
+````text
+1. Open SIQR_Cellular_Automaton.mlapp
+2. Adjust α, ɣ, q using interactive knobs.
+3. Press RUN to observe dynamic evolution.
+````
 
+### Python Modules
+````bash
+git clone https://github.com/sabneet95/Nonlinear-Dynamics.git
+cd Nonlinear-Dynamics/Python
+python logistic_map.py
+````
 
-## 🚀 Usage
+> [!TIP]
+> Modify parameters and observe sensitivity — small changes, divergent futures.
 
-### **MATLAB Applications**
+<div align="right">
 
-1. Open *SIQR_Cellular_Automaton.mlapp* in MATLAB App Designer.  
-2. Adjust parameters (α, ɣ, q) using the interactive knobs — changes apply in real time.  
-3. Click **RUN** to start or reset the simulation and observe real-time cellular evolution.
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
 
-### **Python Modules**
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/sabneet95/Nonlinear-Dynamics.git
-   cd Nonlinear-Dynamics/Python
-   ```
-2. Run a module, e.g.:  
-   ```bash
-   python logistic_map.py
-   ```
-   Similarly run *tent_map.py*, *rk4_method.py*, or *exponential_map.py*.
+</div>
 
 
-## 🧪 Testing
+## 🧠 Conceptual Insights  
 
-<details>
-<summary>Testing Status</summary>
+| Concept | Takeaway |
+|:--------|:----------|
+| **Bifurcation** | Chaos emerges from repeated doubling — simplicity breeds complexity. |
+| **Sensitivity to Initial Conditions** | Deterministic ≠ predictable — initial precision decays exponentially. |
+| **Phase Space** | Each system has geometry — visualize its trajectory, not just numbers. |
+| **Numerical Stability** | Integration methods shape the story as much as the equations themselves. |
 
-Automated testing is not yet implemented.  
-Planned frameworks include **pytest** for Python and **MATLAB Unit Testing Framework** for MATLAB.  
-Contributions to integrate testing pipelines are encouraged.
-</details>
+<div align="right">
 
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
 
-## 🤝 Contributing
-
-1. Open an issue to discuss major changes.  
-2. Ensure all code is well-documented and follows existing style conventions.  
-3. Submit pull requests with clear descriptions and, if possible, tests or validation results.
-
-> 💡 Contributors focused on **chaotic systems**, **cellular automata**, or **scientific visualization** are especially welcome.
+</div>
 
 
-## 🔮 Future Work
+## 🤝 Contributing  
 
-- Extend the library with additional nonlinear models and solvers.  
-- Integrate automated testing frameworks for MATLAB and Python.  
-- Expand documentation with examples, design notes, and roadmaps.  
-- Enhance scalability for larger simulation grids.  
-- Improve UI/UX in MATLAB apps for richer interactivity.
+Contributions are welcome — from enhancing models to visual aesthetics.
+
+**How to Contribute**
+1. **Fork** the repository and open a feature branch.  
+2. Follow language-specific style conventions (PEP-8, MATLAB guide).  
+3. Document equations, parameters, and results with comments or Markdown cells.  
+4. Open a **pull request** with test data or comparison plots.
+
+> [!TIP]
+> Add new models — *Lorenz, Hénon, Rossler, or predator–prey* — to expand the ecosystem.
+
+<br>
+
+**Code of Conduct**  
+This project follows the [Contributor Covenant](https://www.contributor-covenant.org/).  
+Maintain a collegial tone — science thrives on collaboration.
+
+<div align="right">
+
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
+
+</div>
 
 
-## 🧠 Author
+## 🔮 Future Work  
 
-**Sabneet Bains** — *Quantum × AI × Scientific Computing*  
+- Integrate **interactive Jupyter notebooks** for live bifurcation plots.  
+- Add **chaos quantifiers** (Lyapunov, entropy).  
+- Develop **3D attractor visualizations** via Matplotlib/Plotly.  
+- Explore **cross-language interfacing** (MATLAB Engine API for Python).  
+- Create **pedagogical modules** for classroom use.
+
+<div align="right">
+
+[![Back to Top](https://img.shields.io/badge/-⫛_TO_TOP-0d1117?style=flat)](#readme-top)
+
+</div>
+
+
+<div align="center">
+  
+##
+### 👤 Author  
+**Sabneet Bains**  
+*Quantum × AI × Scientific Computing*  
 [LinkedIn](https://www.linkedin.com/in/sabneet-bains/) • [GitHub](https://github.com/sabneet-bains)
 
+##
+### 📄 License  
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 
-## 📄 License
+<sub>“Nonlinear systems remind us — predictability is not the same as understanding.”</sub>
 
-This repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
+</div>
