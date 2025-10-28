@@ -7,7 +7,7 @@
 [![Domain](https://img.shields.io/badge/Scientific_Computing-8E44AD?logo=jupyter&logoColor=white&labelColor=0d1117&style=flat)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2ECC71?labelColor=0d1117&style=flat)](https://choosealicense.com/licenses/mit/)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/sabneet95/Nonlinear-Dynamics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/sabneet-bains/Nonlinear-Dynamics)
 
 **Order from chaos, insight from iteration.**  
 <sup>*A cross-language toolkit that models nonlinear behavior — bridging mathematical theory, computational physics, and visualization design.*</sup>
