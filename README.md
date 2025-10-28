@@ -12,7 +12,7 @@
 **Order from chaos, insight from iteration.**  
 <sup>*A cross-language toolkit that models nonlinear behavior — bridging mathematical theory, computational physics, and visualization design.*</sup>
 
-<img src="https://github.com/sabneet95/Nonlinear-Dynamics/blob/main/2D_Cellular_Automaton.gif" alt="2D Cellular Automaton Animation" width="800">
+<img src="https://github.com/sabneet-bains/Nonlinear-Dynamics/blob/main/2D_Cellular_Automaton.gif" alt="2D Cellular Automaton Animation" width="800">
 
 </div>
 
